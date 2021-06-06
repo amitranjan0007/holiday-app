@@ -1,6 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default{
-  API_BASE_URL: "http://192.168.27.1:8080", 
+  API_BASE_URL: "https://holidaydb.herokuapp.com",
   FETCH_COUNTRY: "/api/posts/getCountry",
   FETCH_COUNTRY_HOLIDAY: "/api/posts/getHolidayList",
 
