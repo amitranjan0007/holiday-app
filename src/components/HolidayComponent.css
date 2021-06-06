@@ -1,0 +1,51 @@
+.dropdownCss {
+  border: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #ccc;
+  font-size: 12px;
+}
+
+DatePicker {
+  display: inline-block;
+}
+
+.btn {
+  display: block;
+  align-items: center;
+}
+
+.body {
+  text-align: center;
+}
+
+.commonmargin {
+  margin-top: 2rem;
+}
+.commonmargin-1 {
+  margin-top: 1rem;
+}
+.element-center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.list {
+  display: block;
+  height: 3rem;
+  padding: 4px;
+  text-align: center;
+  outline: black solid 1px;
+  background-color: #fffafa;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.display {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.list:last-child {
+  margin-bottom: 1rem;
+}
