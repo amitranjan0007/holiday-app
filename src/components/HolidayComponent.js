@@ -58,11 +58,6 @@ class HolidayComponent extends Component{
           if (response.data) {
              this.setState({
               selectedCountryDesc:response.data,
-              startDate: new Date(),
-              endDate: new Date(),
-              selectedCountryCode:null,
-              selectedRegion:null
-
              })
           } else {
              console.log("failed")
@@ -108,6 +103,7 @@ class HolidayComponent extends Component{
       handleSelectCountry = async (e) => {
         this.setState({
           selectedCountryCode: e.target.value,
+           selectedRegion:null
         },()=>{
           console.log(this.state.selectedCountryCode)
         })
